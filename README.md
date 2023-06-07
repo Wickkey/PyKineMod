@@ -125,4 +125,4 @@ Thank you for using the Chemical Reactor Simulation tool! If you have any questi
 
 ## Documentation
 
-[Link to documentation]([https://docs.google.com/document/d/1vthe8qXFL6YI4ObJa73sy7PPq03XgkrF21hnXM2UMtA/edit#](https://docs.google.com/document/d/1vthe8qXFL6YI4ObJa73sy7PPq03XgkrF21hnXM2UMtA/edit?usp=sharing))
+[Link to documentation](https://docs.google.com/document/d/1vthe8qXFL6YI4ObJa73sy7PPq03XgkrF21hnXM2UMtA/edit?usp=sharing)
