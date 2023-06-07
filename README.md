@@ -10,6 +10,7 @@ PyKineMod is a Python-based tool for kinetic model identification and parameter 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
+- [Documentation] (#documentation)
 <!-- - [Contributing](#contributing)
 - [License](#license) -->
 
@@ -121,3 +122,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ---
 
 Thank you for using the Chemical Reactor Simulation tool! If you have any questions or need further assistance, please don't hesitate to reach out. -->
+
+## Documentation
+
+[Link to documentation]([https://docs.google.com/document/d/1vthe8qXFL6YI4ObJa73sy7PPq03XgkrF21hnXM2UMtA/edit#](https://docs.google.com/document/d/1vthe8qXFL6YI4ObJa73sy7PPq03XgkrF21hnXM2UMtA/edit?usp=sharing))
