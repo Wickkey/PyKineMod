@@ -266,35 +266,6 @@ class Incremental(Simulate, DataTools):
         dxdt = ratelaw(self.c(t), K) * self.V(t) - (self.uout(t)[0] / mass) * x
         return dxdt
 
-    # def eb_extent_rate_derivative(self, t, x, K, ratelaw):
-    #     '''
-    #     this is to compute the derivate of computed extents.
-    #     Solving this, we can numerically find
-    #     extent value for a particular ratelaw
-    #     '''
-    #     mass = np.sum(self.n(t) @ self.Mw)
-    #     dxdt = ratelaw(self.c(t), K) * self.V(t) - (self.uout(t)[0]/mass) * x
-    #     return dxdt
-
-    # def eb_objective_function(self, K, reaction_extent, ratelaw, time):
-    #     x0 = 0
-    #     fun = partial(self.eb_extent_rate_derivative, K = K, ratelaw = ratelaw)
-    #     solver = ode(fun).set_integrator("dop853")
-    #     solver.set_initial_value(x0)
-    #     k = 0
-    #     soln = [x0]
-    #     while solver.successful() and solver.t < time[-1]:
-    #         k += 1
-    #         solver.integrate(time[k])
-    #         soln.append(solver.y)
-
-    #     # Convert the list to a numpy array.
-    #     computed_extent = np.array(soln,dtype=object)
-    #     # computed_extent = odeint(self.eb_extent_rate_derivative, 0, time, args = (K, ratelaw))
-    #     computed_extent  = np.squeeze(computed_extent)
-    #     loss = np.sqrt(mean_squared_error(reaction_extent, computed_extent))
-    #     return loss
-
     def eb_objective_function(self, K, reaction_extent, ratelaw, time):
         """
         Computes the objective function for parameter estimation based on extent-based modeling.

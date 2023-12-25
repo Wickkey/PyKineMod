@@ -7,6 +7,27 @@ import warnings
 
 
 class DataTools:
+    def __init__(self):
+        self.N = None
+        self.Na = None 
+        self.Nu = None 
+        self.R = None 
+        self.S = None 
+        self.Mw = None 
+        self.V = None
+        self.Winhat = None 
+        self.Win = None
+        self.Wina = None 
+        self.Winu = None 
+        self.P = None
+        self.uin = None 
+        self.uout = None 
+        self.n0 = None 
+        self.n0a = None 
+        self.n0u = None 
+        self.time = None 
+        self.methodology = None
+        
     # wanted to use something like default dict but in a callable way
     # instead of subscriptable, hence this hack
     def default_dict_v(self, x):
