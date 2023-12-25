@@ -12,7 +12,7 @@ PyKineMod is a Python-based tool for kinetic model identification and parameter 
 - [Examples](#examples)
 - [Documentation](#documentation)
 - [Poster](#poster)
-- - <!-- - [Contributing](#contributing)
+- <!-- - [Contributing](#contributing)
 - [License](#license) -->
 
 
